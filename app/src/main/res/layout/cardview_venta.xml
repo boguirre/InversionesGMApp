@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:elevation="5dp"
+    app:cardBackgroundColor="@color/amarillo"
+    app:cardCornerRadius="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtfechaventa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VENTA FECHA"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/txtnombreproducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nombre Producto"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="70dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/img_producto"
+                    />
+
+                <TextView
+                    android:id="@+id/txtcantidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cantidad: "
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/price_50px"
+                    android:layout_marginLeft="80dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtpreciototalventa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio Total: "
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

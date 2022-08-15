@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gm_app">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GM_APP">
+        <activity android:name=".activities.DetalleVentaActivity"></activity>
+        <activity android:name=".activities.RegistrarVentaActivity" />
+        <activity android:name=".activities.ListProductVentaActivity" />
+        <activity android:name=".activities.ListVentaActivity" />
+        <activity android:name=".activities.ActualizarClienteActivity" />
+        <activity android:name=".activities.RegistrarClienteActivity" />
+        <activity android:name=".activities.ListClienteActivity" />
+        <activity android:name=".activities.CategoryFiltersActivity" />
+        <activity android:name=".activities.FiltrosActivity" />
+        <activity android:name=".activities.ActualizarProveedorActivity" />
+        <activity android:name=".activities.ActualizarImageProductActivity" />
+        <activity android:name=".activities.ActualizarProductoActivity" />
+        <activity android:name=".activities.IngresosStockActivity" />
+        <activity android:name=".activities.IngresosActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.gm_app"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".activities.ListProductoActivity" />
+        <activity android:name=".activities.RegistrarProductoActivity" />
+        <activity android:name=".activities.RegistrarProveedorActivity" />
+        <activity android:name=".activities.ListProveedorActivity" />
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.RegistroActivity" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+
+U
+java:S1128"?Remove this unused import 'com.example.gm_app.modelo.Producto'.(›ñ¡û
+a
+java:S1192"LDefine a constant instead of duplicating this literal "razonsocial" 3 times.(Œã‰H
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”ú‰³þÿÿÿÿ

@@ -1,0 +1,16 @@
+
+c	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¹Ú¬
+F
+java:S1197“"*Move the array designators [] to the type.(Ð–ª÷þÿÿÿÿ
+J
+java:S1066A"/Merge this if statement with the enclosing one.(™°óÅþÿÿÿÿ
+C
+java:S1604I"(Make this anonymous inner class a lambda(¯ÝÖ¶úÿÿÿÿ
+>
+java:S1604F"(Make this anonymous inner class a lambda(ïßç×
+C
+java:S1604h"(Make this anonymous inner class a lambda(„ŸÑ§ÿÿÿÿÿ
+J
+java:S1604t"(Make this anonymous inner class a lambda(Áãž¿ÿÿÿÿÿ8´žð™˜0
+5
+java:S1700‘"Rename field "viewHolder"(üðõ™üÿÿÿÿ

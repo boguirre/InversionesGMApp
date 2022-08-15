@@ -1,0 +1,31 @@
+
+E
+java:S3740M"/Provide the parametrized type for this generic.(Á¿³
+s	java:S1161"^Rename this field "GALERY_REQUEST_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí‰ğ
+q	java:S1162"]Rename this field "PHOTO_REQUEST_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğéğf
+7
+java:S11701"!Make this final field static too.(ßí‰ğ
+6
+java:S11702"!Make this final field static too.(ğéğf
+Q	java:S1253"<This block of commented-out lines of code should be removed.(Ò˜ì•
+?
+java:S11975"*Move the array designators [] to the type.(ø¶¾h
+E
+java:S1197="*Move the array designators [] to the type.(Ğ–ª÷şÿÿÿÿ
+M
+java:S1172m"2Remove this unused method parameter "requestCode".(Àßïûÿÿÿÿ
+g	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ¦‘É
+>
+java:S1604^"(Make this anonymous inner class a lambda(Š”–Ÿ
+C
+java:S1604e"(Make this anonymous inner class a lambda(—ı–ùÿÿÿÿ
+>
+java:S1604o"(Make this anonymous inner class a lambda(Ñ½Àí
+K
+java:S1604ã"(Make this anonymous inner class a lambda(ø›æñøÿÿÿÿ8÷®‘³¤0
+F
+java:S1604×"(Make this anonymous inner class a lambda(¿İÕ8÷®‘³¤0
+F
+java:S1604Ó"(Make this anonymous inner class a lambda(Öøö—8÷®‘³¤0
+`
+java:S2259©"BA "NullPointerException" could be thrown; "data" is nullable here.(ÕŞâå8ê¯‘³¤0

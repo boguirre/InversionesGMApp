@@ -1,0 +1,24 @@
+
+o	java:S116."URename this field "DatePicker" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¼Äşÿÿÿÿ
+Q	java:S125¦"<This block of commented-out lines of code should be removed.(Ïøõ
+n
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(§ŞL
+a
+java:S1192„"JDefine a constant instead of duplicating this literal "stockprod" 4 times.(ü‚œ
+F
+java:S1066Ñ"/Merge this if statement with the enclosing one.(ü‚œ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…øµæ
+E
+java:S1604W"(Make this anonymous inner class a lambda(´Ì8 ¢ğ™˜0
+>
+java:S1604e"(Make this anonymous inner class a lambda(ì´ƒù
+>
+java:S1604l"(Make this anonymous inner class a lambda( ÇÌÿ
+E
+java:S1604w"(Make this anonymous inner class a lambda(ƒÕ8¡¢ğ™˜0
+?
+java:S1604”"(Make this anonymous inner class a lambda(°÷ï©
+K
+java:S1604Á"(Make this anonymous inner class a lambda(“œŞÿÿÿÿÿ8¢¢ğ™˜0
+F
+java:S1604Í"(Make this anonymous inner class a lambda(ƒÕ8¢¢ğ™˜0

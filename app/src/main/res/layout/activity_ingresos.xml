@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
+    tools:context=".activities.IngresosActivity">
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        style="@style/MaterialSearchBarLight"
+        app:mt_hint="Texto de busqueda"
+        app:mt_placeholder="Buscar"
+        app:mt_maxSuggestionsCount="10"
+        app:mt_searchBarColor="@color/purple_700"
+        app:mt_placeholderColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mt_searchIconTint="@color/white"
+        app:mt_clearIconTint="@color/white"
+        app:mt_hintColor="@color/white"
+        app:mt_backIconTint="@color/white"
+        app:mt_leftTextSelectorTint="@color/white"
+        app:mt_textColor="@color/white"
+        android:id="@+id/searchBarIngresos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclervProductoIngresos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

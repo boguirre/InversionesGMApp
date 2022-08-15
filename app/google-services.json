@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "109646321248",
+    "project_id": "inversionesgm-da4ba",
+    "storage_bucket": "inversionesgm-da4ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109646321248:android:561a0eed0267b5fd585505",
+        "android_client_info": {
+          "package_name": "com.example.gm_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109646321248-9jj3vmtjfmdjr58ba1kfusa1r3eenkt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gm_app",
+            "certificate_hash": "2a54ffe50e084eb7456431398dd0d9155ce47503"
+          }
+        },
+        {
+          "client_id": "109646321248-q7c3s6av0sd3gjl3v50417m2uhfh75r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzwbK65f01VEcUYkN5mT8fm-T775bkb_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109646321248-q7c3s6av0sd3gjl3v50417m2uhfh75r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

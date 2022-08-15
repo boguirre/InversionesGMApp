@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/InversionesG&amp;M_APP/G&amp;M_APP/app/src/main/res/layout/activity_category_filters.xml" value="0.24537037037037038" />
+        <entry key="..\:/AndroidProjects/InversionesG&amp;M_APP/G&amp;M_APP/app/src/main/res/layout/activity_detalle_venta.xml" value="0.24537037037037038" />
+        <entry key="..\:/AndroidProjects/InversionesG&amp;M_APP/G&amp;M_APP/app/src/main/res/layout/activity_home.xml" value="0.24259259259259258" />
+        <entry key="..\:/AndroidProjects/InversionesG&amp;M_APP/G&amp;M_APP/app/src/main/res/layout/activity_list_producto.xml" value="0.24259259259259258" />
+        <entry key="..\:/AndroidProjects/InversionesG&amp;M_APP/G&amp;M_APP/app/src/main/res/layout/activity_list_proveedor.xml" value="0.24259259259259258" />
+        <entry key="..\:/AndroidProjects/InversionesG&amp;M_APP/G&amp;M_APP/app/src/main/res/layout/activity_registrar_cliente.xml" value="0.24259259259259258" />
+        <entry key="..\:/AndroidProjects/InversionesG&amp;M_APP/G&amp;M_APP/app/src/main/res/layout/activity_registro.xml" value="0.24259259259259258" />
+        <entry key="..\:/AndroidProjects/InversionesG&amp;M_APP/G&amp;M_APP/app/src/main/res/layout/cardview_producto.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/ASUS/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
